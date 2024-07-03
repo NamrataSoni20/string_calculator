@@ -15,7 +15,7 @@ RSpec.describe 'add_numbers' do
   end
 
   it 'returns the sum of numbers separated by \n' do
-    expect(AddNumbers.add('1\n2\n3')).to eq(6)
+    expect(AddNumbers.add("//;\n1;\n2;\n3")).to eq(6)
   end
   
 end
